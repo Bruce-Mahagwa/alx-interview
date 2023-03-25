@@ -24,6 +24,6 @@ def pascal_triangle(n):
   for i in range(2,n):
     placeholderarr = [];
     for j in range(0, i+1):
-      placeholderarr.append(formula(i, j))
+      placeholderarr.append(int(formula(i, j)))
     arr.append(placeholderarr)
   return arr;
