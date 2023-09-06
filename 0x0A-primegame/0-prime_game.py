@@ -29,6 +29,8 @@ def isWinner(x, nums):
     """Finds the winner of a game based on repetition
         returns winner's name
     """
+    if (len(nums) == 0:
+        return None
     ben = 0
     maria = 0
     i = 0
