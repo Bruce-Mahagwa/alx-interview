@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Functions that determine the outcome of a game """
+
 """ finds out if a number is even or not"""
 
 def isEven(n):
