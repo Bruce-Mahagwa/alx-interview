@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-""" Functions that determine the outcome of a game """
+
+""" Functions that determine the outcome of a game 
+    The game is a prime game and it returns the winner of the game
+"""
+
 
 """ Checks if a number is even or odd """
 
@@ -27,7 +31,9 @@ def isPrime(n):
             break
     return prime
 
+
 """Checks for the winner in the prime game """
+
 
 def isWinner(x, nums):
     """Finds the winner of a game based on repetition
