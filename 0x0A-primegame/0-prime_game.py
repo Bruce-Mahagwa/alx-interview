@@ -2,13 +2,17 @@
 """ Functions that determine the outcome of a game """
 
 """ Checks if a number is even or odd """
+
+
 def isEven(n):
     """ checks if a number is even"""
     if n % 2 == 0:
         return True
     return False
 
+
 """Checks if a number is prime or not """
+
 
 def isPrime(n):
     """ returns true if a number is prime"""
@@ -23,7 +27,7 @@ def isPrime(n):
             break
     return prime
 
-"""Checks for the winner in the prime game"""
+"""Checks for the winner in the prime game """
 
 def isWinner(x, nums):
     """Finds the winner of a game based on repetition
