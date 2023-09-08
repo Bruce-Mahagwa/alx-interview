@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 """ Functions that determine the outcome of a game """
 
-""" finds out if a number is even or not"""
-
 def isEven(n):
     """ checks if a number is even"""
     if n % 2 == 0:
         return True
     return False
 
-""" checks if a number is prime"""
 
 def isPrime(n):
     """ returns true if a number is prime"""
@@ -23,8 +20,6 @@ def isPrime(n):
             prime = False
             break
     return prime
-
-"""Finds the optimal outcome of a game between 2 player"""
 
 
 def isWinner(x, nums):
